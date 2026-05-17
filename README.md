@@ -24,17 +24,25 @@ Os projetos apresentados fazem parte de um ecossistema interno criado para apoia
 
 ## Telas demonstrativas
 
-As imagens abaixo foram baseadas na estrutura visual dos sistemas reais, mas usam apenas dados fictícios e conteúdo genérico. Elas foram criadas para apresentação pública do portfólio e não exibem dados reais, código-fonte, relatórios internos ou informações sensíveis.
+As imagens abaixo preservam a estrutura visual dos sistemas reais, mas foram preparadas para apresentação pública: nomes, códigos, volumes, arquivos, datas operacionais e demais informações sensíveis foram substituídos por dados fictícios.
 
-![Portal interno e launcher de sistemas](assets/screenshots/portal-launcher.svg)
+### Acesso e portal interno
 
-![Sistema de transporte e apontamentos](assets/screenshots/transporte-apontamentos.svg)
+![Tela de login do ecossistema interno](assets/screenshots/reais-anonimizados/login-real-demo.png)
 
-![Gestão de colaboradores](assets/screenshots/gestao-colaboradores.svg)
+![Portal interno e launcher de sistemas](assets/screenshots/reais-anonimizados/portal-launcher-real-demo.png)
 
-![Auditoria de balança](assets/screenshots/auditoria-balanca.svg)
+### Auditoria de balança
 
-![Análises operacionais](assets/screenshots/analises-operacionais.svg)
+![Tela de validação e conferência de PDFs da balança](assets/screenshots/reais-anonimizados/auditoria-balanca-validacao-demo.png)
+
+### Relatórios operacionais
+
+![Relatório analítico de fluxo - resumo executivo](assets/screenshots/reais-anonimizados/relatorio-analitico-resumo-demo.png)
+
+![Relatório analítico de fluxo - destaque das variedades](assets/screenshots/reais-anonimizados/relatorio-analitico-variedades-demo.png)
+
+![Relatório analítico de fluxo - detalhamento por origem e variedade](assets/screenshots/reais-anonimizados/relatorio-analitico-detalhamento-demo.png)
 
 ## Portal interno e launcher de sistemas
 
@@ -150,7 +158,8 @@ Esses projetos fortaleceram minha base em desenvolvimento de software aplicado a
 
 - Criar diagramas simples da arquitetura dos sistemas.
 - Documentar estudos de caso individuais com problema, solução e resultado.
-- Adicionar novas telas demonstrativas conforme os projetos evoluírem.
+- Adicionar novos prints anonimizados conforme os projetos evoluírem.
+- Incluir indicadores de impacto com dados agregados e sem exposição de informações internas.
 
 ## Contato
 

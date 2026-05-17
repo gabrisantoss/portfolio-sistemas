@@ -1,23 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Tela demonstrativa do sistema de auditoria de balança">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Tela demonstrativa da auditoria da balança">
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f7fbfd"/><stop offset="1" stop-color="#e7f0f5"/></linearGradient>
-    <linearGradient id="side" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#083956"/><stop offset="1" stop-color="#0f5f93"/></linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#101828" flood-opacity="0.18"/></filter>
-    <style>.title{font:700 30px 'Segoe UI',Arial,sans-serif;fill:#1d2939}.sub{font:400 16px 'Segoe UI',Arial,sans-serif;fill:#667085}.nav{font:500 15px 'Segoe UI',Arial,sans-serif;fill:#d9ecf5}.panel{font:700 18px 'Segoe UI',Arial,sans-serif;fill:#1d2939}.head{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#667085}.body{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#1d2939}.muted{font:400 13px 'Segoe UI',Arial,sans-serif;fill:#667085}.badge{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#1e7047}.mark{font:800 18px 'Segoe UI',Arial,sans-serif;fill:#0f5f93}.brand{font:700 22px 'Segoe UI',Arial,sans-serif;fill:white}</style>
+    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.14"/></filter>
+    <style>.h1{font:750 28px Inter,'Segoe UI',Arial,sans-serif;fill:#182029}.h2{font:750 18px Inter,'Segoe UI',Arial,sans-serif;fill:#354252}.p{font:400 14px Inter,'Segoe UI',Arial,sans-serif;fill:#657268}.sideTitle{font:800 15px Inter,'Segoe UI',Arial,sans-serif;fill:#f7fafc}.sideSub{font:500 13px Inter,'Segoe UI',Arial,sans-serif;fill:#a7b2bd}.nav{font:650 14px Inter,'Segoe UI',Arial,sans-serif;fill:#dbe3ea}.label{font:700 12px Inter,'Segoe UI',Arial,sans-serif;fill:#657268}.body{font:600 13px Inter,'Segoe UI',Arial,sans-serif;fill:#26322f}.small{font:600 12px Inter,'Segoe UI',Arial,sans-serif;fill:#657268}.badge{font:800 12px Inter,'Segoe UI',Arial,sans-serif;fill:#1f5f40}.warn{fill:#8a5a10}.btn{font:800 13px Inter,'Segoe UI',Arial,sans-serif;fill:#ffffff}.brand{font:900 22px Inter,'Segoe UI',Arial,sans-serif;fill:#26734d}.white{fill:#fff}</style>
   </defs>
-  <rect width="1200" height="675" fill="#dde8ee"/><rect x="34" y="34" width="1132" height="607" rx="18" fill="white" filter="url(#shadow)"/><rect x="34" y="34" width="258" height="607" fill="url(#side)"/>
-  <rect x="62" y="66" width="44" height="44" rx="12" fill="white"/><text x="75" y="95" class="mark">BL</text><text x="122" y="94" class="brand">Balança</text>
-  <rect x="58" y="150" width="205" height="45" rx="10" fill="white" opacity="0.16"/><text x="76" y="178" class="nav" fill="white">Auditoria</text><text x="76" y="229" class="nav">Importações</text><text x="76" y="274" class="nav">Divergências</text><text x="76" y="319" class="nav">Relatórios</text>
-  <text x="62" y="584" class="nav" font-size="13">Tela ilustrativa sem</text><text x="62" y="604" class="nav" font-size="13">registros reais de pesagem.</text>
-  <rect x="292" y="34" width="874" height="607" fill="url(#bg)"/><text x="332" y="103" class="title">Auditoria de Balança</text><text x="332" y="132" class="sub">Conferência de registros, importações e divergências operacionais.</text>
-  <rect x="958" y="82" width="134" height="34" rx="17" fill="#e9f7ef" stroke="#b9d9c9"/><text x="983" y="104" class="badge">Conferência ativa</text>
-  <rect x="332" y="170" width="190" height="42" rx="10" fill="white" stroke="#d9e2ea"/><text x="354" y="197" class="muted">Período: safra atual</text><rect x="538" y="170" width="170" height="42" rx="10" fill="white" stroke="#d9e2ea"/><text x="560" y="197" class="muted">Status: em análise</text><rect x="724" y="170" width="170" height="42" rx="10" fill="white" stroke="#d9e2ea"/><text x="746" y="197" class="muted">Origem: importação</text>
-  <rect x="332" y="244" width="370" height="280" rx="13" fill="white" stroke="#d9e2ea"/><text x="358" y="283" class="panel">Divergências por tipo</text>
-  <rect x="382" y="388" width="48" height="92" rx="8" fill="#0f5f93"/><text x="384" y="506" class="muted">Peso</text><rect x="482" y="430" width="48" height="50" rx="8" fill="#2f8f5b"/><text x="484" y="506" class="muted">Frota</text><rect x="582" y="410" width="48" height="70" rx="8" fill="#d6a23a"/><text x="578" y="506" class="muted">Origem</text><rect x="648" y="452" width="48" height="28" rx="8" fill="#0f5f93"/><text x="650" y="506" class="muted">Turno</text>
-  <rect x="734" y="244" width="370" height="280" rx="13" fill="white" stroke="#d9e2ea"/><text x="760" y="283" class="panel">Fila de análise</text>
-  <text x="760" y="328" class="head">REGISTRO</text><text x="884" y="328" class="head">ORIGEM</text><text x="986" y="328" class="head">STATUS</text><line x1="760" y1="346" x2="1078" y2="346" stroke="#edf1f5"/>
-  <text x="760" y="382" class="body">Conferência 001</text><text x="884" y="382" class="body">Importação</text><rect x="986" y="362" width="76" height="28" rx="14" fill="#fff4db"/><text x="1004" y="381" class="badge" fill="#94640f">Revisar</text>
-  <text x="760" y="428" class="body">Conferência 002</text><text x="884" y="428" class="body">Manual</text><rect x="986" y="408" width="54" height="28" rx="14" fill="#e9f7ef"/><text x="1004" y="427" class="badge">OK</text>
-  <text x="760" y="474" class="body">Conferência 003</text><text x="884" y="474" class="body">Importação</text><rect x="986" y="454" width="76" height="28" rx="14" fill="#fff4db"/><text x="1004" y="473" class="badge" fill="#94640f">Revisar</text>
-  <rect x="1010" y="590" width="116" height="30" rx="15" fill="white" fill-opacity="0.9" stroke="#e3e8ef"/><text x="1028" y="610" class="head">Dados fictícios</text>
+  <rect width="1200" height="675" fill="#f5f6f8"/>
+  <rect x="36" y="30" width="1128" height="615" rx="16" fill="#ffffff" filter="url(#shadow)"/>
+  <rect x="36" y="30" width="270" height="615" rx="16" fill="#17202a"/>
+  <rect x="36" y="30" width="270" height="615" fill="#17202a"/>
+  <rect x="62" y="58" width="44" height="44" rx="10" fill="#ffffff"/><text x="75" y="87" class="brand">UB</text>
+  <text x="122" y="75" class="sideTitle">Usina Bazan</text><text x="122" y="96" class="sideSub">Auditoria da Balança</text>
+  <g transform="translate(58 142)">
+    <rect width="216" height="42" rx="8" fill="#263544"/><text x="42" y="27" class="nav white">Resultado</text><circle cx="20" cy="21" r="7" fill="#26734d"/>
+    <text x="42" y="82" class="nav">Entradas</text><circle cx="20" cy="76" r="7" fill="#667078"/>
+    <text x="42" y="131" class="nav">Cadastro</text><circle cx="20" cy="125" r="7" fill="#667078"/>
+    <text x="42" y="180" class="nav">Colheita atual</text><circle cx="20" cy="174" r="7" fill="#667078"/>
+    <text x="42" y="229" class="nav">Validar</text><circle cx="20" cy="223" r="7" fill="#667078"/>
+    <text x="42" y="278" class="nav">Histórico</text><circle cx="20" cy="272" r="7" fill="#667078"/>
+  </g>
+  <line x1="62" y1="552" x2="274" y2="552" stroke="#344250"/>
+  <text x="62" y="578" class="sideSub">Operador Demo</text><text x="62" y="600" class="sideSub">dados fictícios</text>
+
+  <rect x="306" y="30" width="858" height="615" fill="#f6f7f3"/>
+  <g transform="translate(342 64)">
+    <text class="h1">Resultado da auditoria</text><text y="30" class="p">Conferência de notas, talhões, fazendas e ordens de serviço.</text>
+    <rect x="650" y="0" width="132" height="40" rx="8" fill="#26734d"/><text x="676" y="26" class="btn">Atualizar</text>
+  </g>
+
+  <rect x="342" y="128" width="786" height="84" rx="8" fill="#fff7db" stroke="#e9d7a2"/>
+  <rect x="362" y="154" width="5" height="34" rx="2" fill="#ca8a04"/>
+  <text x="384" y="158" class="h2">Tela pública demonstrativa</text><text x="384" y="184" class="p">Os registros abaixo são exemplos fictícios para proteger dados operacionais reais.</text>
+
+  <g transform="translate(342 236)">
+    <rect width="786" height="72" rx="8" fill="#ffffff" stroke="#d9e1d8"/>
+    <text x="20" y="24" class="label">Data inicial</text><rect x="20" y="34" width="126" height="28" rx="6" fill="#f8faf7" stroke="#d9e1d8"/><text x="34" y="53" class="small">01/05/2026</text>
+    <text x="168" y="24" class="label">Data final</text><rect x="168" y="34" width="126" height="28" rx="6" fill="#f8faf7" stroke="#d9e1d8"/><text x="182" y="53" class="small">17/05/2026</text>
+    <text x="316" y="24" class="label">Frente</text><rect x="316" y="34" width="100" height="28" rx="6" fill="#f8faf7" stroke="#d9e1d8"/><text x="330" y="53" class="small">Todas</text>
+    <text x="438" y="24" class="label">Status</text><rect x="438" y="34" width="120" height="28" rx="6" fill="#f8faf7" stroke="#d9e1d8"/><text x="452" y="53" class="small">Em análise</text>
+    <rect x="640" y="30" width="110" height="34" rx="8" fill="#26734d"/><text x="673" y="52" class="btn">Filtrar</text>
+  </g>
+
+  <g transform="translate(342 330)">
+    <rect width="242" height="82" rx="8" fill="#ffffff" stroke="#d9e1d8"/><text x="20" y="28" class="label">Notas analisadas</text><text x="20" y="62" font-family="Inter,Segoe UI,Arial" font-size="28" font-weight="850" fill="#182029">184</text>
+    <rect x="272" width="242" height="82" rx="8" fill="#ffffff" stroke="#d9e1d8"/><text x="292" y="28" class="label">Divergências</text><text x="292" y="62" font-family="Inter,Segoe UI,Arial" font-size="28" font-weight="850" fill="#182029">12</text>
+    <rect x="544" width="242" height="82" rx="8" fill="#ffffff" stroke="#d9e1d8"/><text x="564" y="28" class="label">Talhões verificados</text><text x="564" y="62" font-family="Inter,Segoe UI,Arial" font-size="28" font-weight="850" fill="#182029">38</text>
+  </g>
+
+  <rect x="342" y="438" width="786" height="150" rx="8" fill="#ffffff" stroke="#d9e1d8"/>
+  <text x="366" y="470" class="h2">Registros para conferência</text>
+  <text x="366" y="508" class="label">TALHÃO</text><text x="486" y="508" class="label">OS</text><text x="586" y="508" class="label">NOTA</text><text x="708" y="508" class="label">SITUAÇÃO</text><text x="908" y="508" class="label">AÇÃO</text>
+  <line x1="366" y1="522" x2="1104" y2="522" stroke="#eef2ec"/>
+  <text x="366" y="548" class="body">Talhão 00</text><text x="486" y="548" class="body">OS-0001</text><text x="586" y="548" class="body">N-000123</text><rect x="708" y="529" width="88" height="26" rx="13" fill="#fff7db"/><text x="724" y="547" class="badge warn">Revisar</text><text x="908" y="548" class="small">Abrir detalhe</text>
+  <text x="366" y="580" class="body">Talhão 01</text><text x="486" y="580" class="body">OS-0002</text><text x="586" y="580" class="body">N-000124</text><rect x="708" y="561" width="68" height="26" rx="13" fill="#e7f2ea"/><text x="724" y="579" class="badge">OK</text><text x="908" y="580" class="small">Histórico</text>
 </svg>

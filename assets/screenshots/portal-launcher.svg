@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Tela demonstrativa do portal interno e launcher de sistemas">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7fbfd"/>
+      <stop offset="1" stop-color="#e7f0f5"/>
+    </linearGradient>
+    <linearGradient id="side" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#083956"/>
+      <stop offset="1" stop-color="#0f5f93"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#101828" flood-opacity="0.18"/>
+    </filter>
+    <style>
+      .title{font:700 30px 'Segoe UI',Arial,sans-serif;fill:#1d2939}.sub{font:400 16px 'Segoe UI',Arial,sans-serif;fill:#667085}.nav{font:500 15px 'Segoe UI',Arial,sans-serif;fill:#d9ecf5}.small{font:600 13px 'Segoe UI',Arial,sans-serif;fill:#667085}.card-title{font:700 18px 'Segoe UI',Arial,sans-serif;fill:#1d2939}.body{font:400 14px 'Segoe UI',Arial,sans-serif;fill:#667085}.badge{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#1e7047}.mark{font:800 18px 'Segoe UI',Arial,sans-serif;fill:#0f5f93}.brand{font:700 22px 'Segoe UI',Arial,sans-serif;fill:white}
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="#dde8ee"/>
+  <rect x="34" y="34" width="1132" height="607" rx="18" fill="white" filter="url(#shadow)"/>
+  <rect x="34" y="34" width="258" height="607" rx="18" fill="url(#side)"/>
+  <rect x="34" y="34" width="258" height="607" fill="url(#side)"/>
+  <rect x="62" y="66" width="44" height="44" rx="12" fill="white"/>
+  <text x="75" y="95" class="mark">UB</text>
+  <text x="122" y="94" class="brand">Portal Interno</text>
+  <rect x="58" y="150" width="205" height="45" rx="10" fill="white" opacity="0.16"/>
+  <text x="76" y="178" class="nav" fill="white">Visão geral</text>
+  <text x="76" y="229" class="nav">Sistemas</text>
+  <text x="76" y="274" class="nav">Auditoria</text>
+  <text x="76" y="319" class="nav">Backups</text>
+  <text x="76" y="364" class="nav">Configurações</text>
+  <line x1="62" y1="558" x2="263" y2="558" stroke="white" stroke-opacity="0.24"/>
+  <text x="62" y="584" class="nav" font-size="13">Tela demonstrativa com</text>
+  <text x="62" y="604" class="nav" font-size="13">dados fictícios.</text>
+  <rect x="292" y="34" width="874" height="607" fill="url(#bg)"/>
+  <text x="332" y="103" class="title">Launcher de Sistemas Internos</text>
+  <text x="332" y="132" class="sub">Acesso centralizado às ferramentas usadas na rotina operacional.</text>
+  <rect x="947" y="82" width="154" height="34" rx="17" fill="#e9f7ef" stroke="#b9d9c9"/>
+  <text x="971" y="104" class="badge">Ambiente local ativo</text>
+  <g>
+    <rect x="332" y="182" width="360" height="150" rx="14" fill="white" stroke="#d9e2ea"/>
+    <rect x="358" y="208" width="42" height="42" rx="12" fill="#edf7fb"/><text x="369" y="235" class="mark">TR</text>
+    <text x="358" y="278" class="card-title">Transporte e apontamentos</text>
+    <text x="358" y="304" class="body">Controle de registros, consultas e relatórios.</text>
+    <rect x="358" y="344" width="92" height="28" rx="14" fill="#e9f7ef"/><text x="376" y="363" class="badge">Disponível</text>
+  </g>
+  <g>
+    <rect x="724" y="182" width="360" height="150" rx="14" fill="white" stroke="#d9e2ea"/>
+    <rect x="750" y="208" width="42" height="42" rx="12" fill="#edf7fb"/><text x="761" y="235" class="mark">RH</text>
+    <text x="750" y="278" class="card-title">Gestão de colaboradores</text>
+    <text x="750" y="304" class="body">Cadastros, documentos e acompanhamento.</text>
+    <rect x="750" y="344" width="92" height="28" rx="14" fill="#e9f7ef"/><text x="768" y="363" class="badge">Disponível</text>
+  </g>
+  <g>
+    <rect x="332" y="364" width="360" height="150" rx="14" fill="white" stroke="#d9e2ea"/>
+    <rect x="358" y="390" width="42" height="42" rx="12" fill="#edf7fb"/><text x="369" y="417" class="mark">BL</text>
+    <text x="358" y="460" class="card-title">Auditoria de balança</text>
+    <text x="358" y="486" class="body">Análise de divergências e conferências.</text>
+    <rect x="358" y="526" width="114" height="28" rx="14" fill="#fff4db"/><text x="376" y="545" class="badge" fill="#94640f">Monitoramento</text>
+  </g>
+  <g>
+    <rect x="724" y="364" width="360" height="150" rx="14" fill="white" stroke="#d9e2ea"/>
+    <rect x="750" y="390" width="42" height="42" rx="12" fill="#edf7fb"/><text x="761" y="417" class="mark">OP</text>
+    <text x="750" y="460" class="card-title">Análises operacionais</text>
+    <text x="750" y="486" class="body">Indicadores e relatórios de acompanhamento.</text>
+    <rect x="750" y="526" width="92" height="28" rx="14" fill="#e9f7ef"/><text x="768" y="545" class="badge">Disponível</text>
+  </g>
+  <rect x="1010" y="590" width="116" height="30" rx="15" fill="white" fill-opacity="0.9" stroke="#e3e8ef"/>
+  <text x="1028" y="610" class="small">Dados fictícios</text>
+</svg>

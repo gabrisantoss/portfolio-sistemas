@@ -22,6 +22,20 @@ Os projetos apresentados fazem parte de um ecossistema interno criado para apoia
 | Auditoria de balança | Apoiar verificações, análises de divergências e acompanhamento de registros operacionais. |
 | Análises operacionais | Transformar dados operacionais em relatórios, consultas e indicadores de acompanhamento. |
 
+## Telas demonstrativas
+
+As imagens abaixo são representações visuais com dados fictícios, criadas apenas para apresentação pública do portfólio. Elas não exibem dados reais, código-fonte, relatórios internos ou informações sensíveis.
+
+![Portal interno e launcher de sistemas](assets/screenshots/portal-launcher.svg)
+
+![Sistema de transporte e apontamentos](assets/screenshots/transporte-apontamentos.svg)
+
+![Gestão de colaboradores](assets/screenshots/gestao-colaboradores.svg)
+
+![Auditoria de balança](assets/screenshots/auditoria-balanca.svg)
+
+![Análises operacionais](assets/screenshots/analises-operacionais.svg)
+
 ## Portal interno e launcher de sistemas
 
 Portal central para organizar o acesso aos principais sistemas internos em uma única interface.
@@ -134,10 +148,9 @@ Esses projetos fortaleceram minha base em desenvolvimento de software aplicado a
 
 ## Próximos passos
 
-- Adicionar prints com dados fictícios ou telas demonstrativas.
 - Criar diagramas simples da arquitetura dos sistemas.
 - Documentar estudos de caso individuais com problema, solução e resultado.
-- Melhorar a apresentação visual do portfólio.
+- Melhorar a apresentação visual do portfólio com novas telas demonstrativas.
 
 ## Contato
 

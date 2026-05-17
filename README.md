@@ -24,7 +24,7 @@ Os projetos apresentados fazem parte de um ecossistema interno criado para apoia
 
 ## Telas demonstrativas
 
-As imagens abaixo são representações visuais com dados fictícios, criadas apenas para apresentação pública do portfólio. Elas não exibem dados reais, código-fonte, relatórios internos ou informações sensíveis.
+As imagens abaixo foram baseadas na estrutura visual dos sistemas reais, mas usam apenas dados fictícios e conteúdo genérico. Elas foram criadas para apresentação pública do portfólio e não exibem dados reais, código-fonte, relatórios internos ou informações sensíveis.
 
 ![Portal interno e launcher de sistemas](assets/screenshots/portal-launcher.svg)
 
@@ -150,7 +150,7 @@ Esses projetos fortaleceram minha base em desenvolvimento de software aplicado a
 
 - Criar diagramas simples da arquitetura dos sistemas.
 - Documentar estudos de caso individuais com problema, solução e resultado.
-- Melhorar a apresentação visual do portfólio com novas telas demonstrativas.
+- Adicionar novas telas demonstrativas conforme os projetos evoluírem.
 
 ## Contato
 

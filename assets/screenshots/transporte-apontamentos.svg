@@ -1,23 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Tela demonstrativa do sistema de transporte e apontamentos">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Tela demonstrativa do sistema de notas e transporte">
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f7fbfd"/><stop offset="1" stop-color="#e7f0f5"/></linearGradient>
-    <linearGradient id="side" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#083956"/><stop offset="1" stop-color="#0f5f93"/></linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#101828" flood-opacity="0.18"/></filter>
-    <style>.title{font:700 30px 'Segoe UI',Arial,sans-serif;fill:#1d2939}.sub{font:400 16px 'Segoe UI',Arial,sans-serif;fill:#667085}.nav{font:500 15px 'Segoe UI',Arial,sans-serif;fill:#d9ecf5}.metric-label{font:600 13px 'Segoe UI',Arial,sans-serif;fill:#667085}.metric{font:800 30px 'Segoe UI',Arial,sans-serif;fill:#1d2939}.hint{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#26805a}.head{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#667085}.body{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#1d2939}.badge{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#1e7047}.mark{font:800 18px 'Segoe UI',Arial,sans-serif;fill:#0f5f93}.brand{font:700 22px 'Segoe UI',Arial,sans-serif;fill:white}</style>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fbfdfb"/><stop offset="1" stop-color="#f4f6f2"/></linearGradient>
+    <linearGradient id="card" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f8faf7"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop offset="0" stop-color="#2f3192"/><stop offset="0.42" stop-color="#2f7d4f"/><stop offset="0.70" stop-color="#c8a24a"/><stop offset="1" stop-color="transparent"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#171b1f" flood-opacity="0.11"/></filter>
+    <style>
+      .h1{font:650 28px 'Segoe UI',Arial,sans-serif;fill:#17201b}.h2{font:750 21px 'Segoe UI',Arial,sans-serif;fill:#17201b}.h3{font:750 16px 'Segoe UI',Arial,sans-serif;fill:#17201b}.p{font:400 14px 'Segoe UI',Arial,sans-serif;fill:#66736b}.label{font:700 12px 'Segoe UI',Arial,sans-serif;fill:#66736b}.val{font:600 13px 'Segoe UI',Arial,sans-serif;fill:#17201b}.tab{font:850 13px 'Segoe UI',Arial,sans-serif;fill:#20246f}.tabOn{font:850 13px 'Segoe UI',Arial,sans-serif;fill:#ffffff}.badge{font:800 12px 'Segoe UI',Arial,sans-serif;fill:#20246f}.btn{font:800 13px 'Segoe UI',Arial,sans-serif;fill:#ffffff}.btn2{font:800 13px 'Segoe UI',Arial,sans-serif;fill:#17201b}.brand{font:900 23px 'Segoe UI',Arial,sans-serif;fill:#2f3192}.tiny{font:750 11px 'Segoe UI',Arial,sans-serif;fill:#66736b;text-transform:uppercase}
+    </style>
   </defs>
-  <rect width="1200" height="675" fill="#dde8ee"/><rect x="34" y="34" width="1132" height="607" rx="18" fill="white" filter="url(#shadow)"/><rect x="34" y="34" width="258" height="607" fill="url(#side)"/>
-  <rect x="62" y="66" width="44" height="44" rx="12" fill="white"/><text x="75" y="95" class="mark">TR</text><text x="122" y="94" class="brand">Transporte</text>
-  <rect x="58" y="150" width="205" height="45" rx="10" fill="white" opacity="0.16"/><text x="76" y="178" class="nav" fill="white">Lançamentos</text><text x="76" y="229" class="nav">Histórico</text><text x="76" y="274" class="nav">Relatórios</text><text x="76" y="319" class="nav">Cadastros</text>
-  <text x="62" y="584" class="nav" font-size="13">Exemplo visual sem</text><text x="62" y="604" class="nav" font-size="13">dados reais de operação.</text>
-  <rect x="292" y="34" width="874" height="607" fill="url(#bg)"/><text x="332" y="103" class="title">Controle de Transporte</text><text x="332" y="132" class="sub">Acompanhamento de apontamentos e geração de relatórios.</text>
-  <rect x="948" y="82" width="144" height="34" rx="17" fill="#e9f7ef" stroke="#b9d9c9"/><text x="973" y="104" class="badge">Rotina organizada</text>
-  <g><rect x="332" y="180" width="178" height="116" rx="13" fill="white" stroke="#d9e2ea"/><text x="354" y="214" class="metric-label">Registros do dia</text><text x="354" y="253" class="metric">128</text><text x="354" y="278" class="hint">+12% vs. média</text></g>
-  <g><rect x="530" y="180" width="178" height="116" rx="13" fill="white" stroke="#d9e2ea"/><text x="552" y="214" class="metric-label">Relatórios gerados</text><text x="552" y="253" class="metric">16</text><text x="552" y="278" class="hint">sem retrabalho</text></g>
-  <g><rect x="728" y="180" width="178" height="116" rx="13" fill="white" stroke="#d9e2ea"/><text x="750" y="214" class="metric-label">Pendências</text><text x="750" y="253" class="metric">04</text><text x="750" y="278" class="hint">em conferência</text></g>
-  <g><rect x="926" y="180" width="178" height="116" rx="13" fill="white" stroke="#d9e2ea"/><text x="948" y="214" class="metric-label">Tempo economizado</text><text x="948" y="253" class="metric">3h</text><text x="948" y="278" class="hint">estimativa diária</text></g>
-  <rect x="332" y="326" width="772" height="230" rx="13" fill="white" stroke="#d9e2ea"/><text x="358" y="365" class="title" font-size="20">Apontamentos recentes</text>
-  <text x="358" y="408" class="head">OPERAÇÃO</text><text x="575" y="408" class="head">SETOR</text><text x="760" y="408" class="head">STATUS</text><text x="970" y="408" class="head">TURNO</text><line x1="358" y1="426" x2="1078" y2="426" stroke="#edf1f5"/>
-  <text x="358" y="460" class="body">Transporte interno</text><text x="575" y="460" class="body">Frente A</text><rect x="760" y="440" width="88" height="28" rx="14" fill="#e9f7ef"/><text x="778" y="459" class="badge">Conferido</text><text x="970" y="460" class="body">1º</text>
-  <text x="358" y="504" class="body">Movimentação de frota</text><text x="575" y="504" class="body">Frente B</text><rect x="760" y="484" width="76" height="28" rx="14" fill="#fff4db"/><text x="778" y="503" class="badge" fill="#94640f">Revisão</text><text x="970" y="504" class="body">2º</text>
-  <rect x="1010" y="590" width="116" height="30" rx="15" fill="white" fill-opacity="0.9" stroke="#e3e8ef"/><text x="1028" y="610" class="metric-label">Dados fictícios</text>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="90" cy="10" r="220" fill="#2f3192" opacity="0.08"/><circle cx="1080" cy="30" r="210" fill="#2f7d4f" opacity="0.07"/>
+
+  <rect x="34" y="28" width="1132" height="94" rx="14" fill="url(#card)" stroke="#d8ded8" filter="url(#shadow)"/>
+  <rect x="34" y="28" width="1132" height="3" fill="url(#accent)"/>
+  <rect x="60" y="48" width="76" height="56" rx="14" fill="#ffffff" stroke="#d8ded8"/><text x="82" y="84" class="brand">UB</text>
+  <text x="154" y="69" class="h1">Usina Bazan</text><text x="154" y="96" class="p">Sistema de Notas e Transporte</text>
+  <rect x="760" y="54" width="88" height="30" rx="15" fill="#ffffff" stroke="#d8ded8"/><text x="781" y="74" class="badge">Launcher</text>
+  <rect x="862" y="54" width="78" height="30" rx="15" fill="#e8eafb"/><text x="884" y="74" class="badge">Online</text>
+  <rect x="954" y="54" width="92" height="30" rx="15" fill="#e8eafb"/><text x="974" y="74" class="badge">Hoje: 24</text>
+  <rect x="1060" y="54" width="82" height="30" rx="15" fill="#e8eafb"/><text x="1078" y="74" class="badge">Total: 824</text>
+
+  <g transform="translate(34 140)">
+    <rect x="0" y="0" width="128" height="38" rx="9" fill="#2f3192"/><text x="23" y="25" class="tabOn">Lançamento</text>
+    <rect x="140" y="0" width="112" height="38" rx="9" fill="#ffffff" stroke="#d7dce8"/><text x="164" y="25" class="tab">Histórico</text>
+    <rect x="264" y="0" width="142" height="38" rx="9" fill="#ffffff" stroke="#d7dce8"/><text x="284" y="25" class="tab">BI e Relatórios</text>
+    <rect x="418" y="0" width="116" height="38" rx="9" fill="#ffffff" stroke="#d7dce8"/><text x="442" y="25" class="tab">Cadastros</text>
+  </g>
+
+  <rect x="34" y="198" width="1132" height="430" rx="14" fill="#ffffff" stroke="#d8ded8" filter="url(#shadow)"/>
+  <text x="62" y="238" class="h2">Novo Lançamento</text><text x="62" y="263" class="p">Viagem, carga e datas em uma tela única.</text>
+  <rect x="984" y="224" width="136" height="32" rx="16" fill="#f4ead0" stroke="#e5d39a"/><text x="1006" y="245" class="badge" fill="#7a5a14">Manter carga</text>
+
+  <rect x="62" y="292" width="520" height="250" rx="12" fill="#f8faf7" stroke="#d8ded8"/>
+  <text x="86" y="326" class="h3">Viagem</text>
+  <g transform="translate(86 348)">
+    <text class="label">Número da nota</text><rect y="10" width="130" height="38" rx="9" fill="#fbfdfb" stroke="#d8ded8"/><text x="12" y="35" class="val">000123</text>
+    <text x="152" class="label">Motorista</text><rect x="152" y="10" width="160" height="38" rx="9" fill="#fbfdfb" stroke="#d8ded8"/><text x="164" y="35" class="val">Motorista Exemplo</text>
+    <text x="334" class="label">Caminhão</text><rect x="334" y="10" width="140" height="38" rx="9" fill="#fbfdfb" stroke="#d8ded8"/><text x="346" y="35" class="val">ABC-0000</text>
+    <text y="78" class="label">Operador</text><rect y="88" width="160" height="38" rx="9" fill="#fbfdfb" stroke="#d8ded8"/><text x="12" y="113" class="val">Operador Demo</text>
+    <text x="182" y="78" class="label">Colhedora</text><rect x="182" y="88" width="130" height="38" rx="9" fill="#fbfdfb" stroke="#d8ded8"/><text x="194" y="113" class="val">CH-01</text>
+  </g>
+
+  <rect x="614" y="292" width="520" height="250" rx="12" fill="#f8faf7" stroke="#d8ded8"/>
+  <text x="638" y="326" class="h3">Carga</text>
+  <g transform="translate(638 348)">
+    <text class="label">Fazenda muda</text><rect y="10" width="160" height="38" rx="9" fill="#fbfdfb" stroke="#d8ded8"/><text x="12" y="35" class="val">Origem Demo</text>
+    <text x="182" class="label">Talhão</text><rect x="182" y="10" width="120" height="38" rx="9" fill="#fbfdfb" stroke="#d8ded8"/><text x="194" y="35" class="val">T-00</text>
+    <text x="324" class="label">Fazenda plantio</text><rect x="324" y="10" width="150" height="38" rx="9" fill="#fbfdfb" stroke="#d8ded8"/><text x="336" y="35" class="val">Destino Demo</text>
+    <text y="78" class="label">Variedade</text><rect y="88" width="150" height="38" rx="9" fill="#fbfdfb" stroke="#d8ded8"/><text x="12" y="113" class="val">Variedade X</text>
+    <text x="172" y="78" class="label">Data colheita</text><rect x="172" y="88" width="140" height="38" rx="9" fill="#fbfdfb" stroke="#d8ded8"/><text x="184" y="113" class="val">17/05/2026</text>
+    <text x="334" y="78" class="label">Data plantio</text><rect x="334" y="88" width="140" height="38" rx="9" fill="#fbfdfb" stroke="#d8ded8"/><text x="346" y="113" class="val">17/05/2026</text>
+  </g>
+  <rect x="890" y="566" width="92" height="38" rx="9" fill="#ffffff" stroke="#d8ded8"/><text x="916" y="590" class="btn2">Limpar</text>
+  <rect x="996" y="566" width="138" height="38" rx="9" fill="#2f7d4f"/><text x="1026" y="590" class="btn">Lançar nota</text>
+  <rect x="62" y="570" width="132" height="30" rx="15" fill="#e8f3ec"/><text x="82" y="590" class="badge" fill="#1f5638">Dados fictícios</text>
 </svg>

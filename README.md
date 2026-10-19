@@ -18,7 +18,7 @@ Suíte funcional com um portal e quatro aplicações: Colheita e Balança, Notas
 
 ## Estudos de caso
 
-Quatro perspectivas sobre o mesmo ecossistema, não quatro produtos independentes:
+Cinco perspectivas sobre o mesmo ecossistema, com estudos específicos de seus módulos:
 
 | Estudo | Desafio | Evidência pública |
 | --- | --- | --- |
@@ -26,6 +26,8 @@ Quatro perspectivas sobre o mesmo ecossistema, não quatro produtos independente
 | [02 · Qualidade dos dados](cases/02-qualidade-dados.md) | Conferir pesagens, vínculos e divergências antes da análise. | Importação, regras, repositórios, testes e fechamento de safra. |
 | [03 · Rotinas administrativas](cases/03-rotinas-administrativas.md) | Organizar transporte, pessoas, documentos e relatórios. | Cadastros integrados, histórico, filtros, indicadores e exportações. |
 | [04 · Balança Audit](cases/04-balanca-audit-inteligencia-operacional.md) | Conferir e analisar dados exportados do sistema corporativo, sem substituí-lo. | Importação de OS via Excel, PDFs com alerta de sobreposição, TCH com área comprovada e central de relatórios. |
+
+| [05 · Transporte de Olhadura](cases/05-transporte-olhadura.md) | Consultar viagens de mudas a partir de notas físicas, sem confundir origem, destino e datas. | Histórico paginado, filtros combinados, seis PDFs e validação PostgreSQL. |
 
 ## Telas demonstrativas
 
@@ -36,6 +38,8 @@ Estas capturas são da versão executável pública. Nomes, propriedades, regist
 ![Fechamento de safra do cenário fictício](https://raw.githubusercontent.com/gabrisantoss/operacoes-agricolas/main/docs/screenshots/safra.png)
 
 ### Notas e Transporte
+
+[Estudo específico: fluxo, decisões e validação](cases/05-transporte-olhadura.md).
 
 ![Notas e transporte da demonstração](https://raw.githubusercontent.com/gabrisantoss/operacoes-agricolas/main/docs/screenshots/notas.png)
 
@@ -68,3 +72,5 @@ As instalações operacionais e suas bases não são publicadas. A demonstraçã
 ## Contato
 
 [GitHub](https://github.com/gabrisantoss) · [LinkedIn](https://www.linkedin.com/in/gabriel-santos-49874a356) · [E-mail](mailto:santozgabriiel@gmail.com)
+
+A revisão final do Transporte de Olhadura em **19/10/2026** repetiu a suíte integrada: **173 testes Python, 174 testes TypeScript e 6 testes JavaScript de usabilidade**, incluindo PostgreSQL real. Foram conferidos portal autenticado, PDFs, Excel e capturas sintéticas ([estudo de caso](cases/05-transporte-olhadura.md), [registro técnico](https://github.com/gabrisantoss/operacoes-agricolas/blob/main/docs/VALIDACAO.md)). Esses totais abrangem a demonstração integrada.

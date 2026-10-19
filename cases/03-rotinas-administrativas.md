@@ -12,7 +12,7 @@ Três aplicações Python organizam essas rotinas, com acesso pelo portal e pers
 
 | Aplicação | Fluxo disponível | O que observar |
 | --- | --- | --- |
-| Notas e Transporte | Lançamento, histórico, filtros, BI e exportações. | Referências integradas de cadastros e proteção do histórico. |
+| Notas e Transporte | [Fluxo e decisões no estudo 05](05-transporte-olhadura.md). | Referências integradas de cadastros e proteção do histórico. |
 | Colaboradores | Cadastro, escala, CNH e pendências documentais. | Filtros e contadores de situações de acompanhamento. |
 | Análises Operacionais | Paradas, motivos, turnos, frentes e colheita. | Consolidação dos apontamentos e relatórios PDF/Excel. |
 

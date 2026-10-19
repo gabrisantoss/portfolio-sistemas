@@ -18,13 +18,14 @@ Suíte funcional com um portal e quatro aplicações: Colheita e Balança, Notas
 
 ## Estudos de caso
 
-Três perspectivas sobre o mesmo ecossistema, não três produtos independentes:
+Quatro perspectivas sobre o mesmo ecossistema, não quatro produtos independentes:
 
 | Estudo | Desafio | Evidência pública |
 | --- | --- | --- |
 | [01 · Plataforma integrada](cases/01-plataforma-integrada.md) | Unificar o acesso sem reescrever todas as aplicações. | Portal, sessão, proxy, contratos e controlador local. |
 | [02 · Qualidade dos dados](cases/02-qualidade-dados.md) | Conferir pesagens, vínculos e divergências antes da análise. | Importação, regras, repositórios, testes e fechamento de safra. |
 | [03 · Rotinas administrativas](cases/03-rotinas-administrativas.md) | Organizar transporte, pessoas, documentos e relatórios. | Cadastros integrados, histórico, filtros, indicadores e exportações. |
+| [04 · Balança Audit](cases/04-balanca-audit-inteligencia-operacional.md) | Conferir e analisar dados exportados do sistema corporativo, sem substituí-lo. | Importação de OS via Excel, PDFs com alerta de sobreposição, TCH com área comprovada e central de relatórios. |
 
 ## Telas demonstrativas
 
@@ -50,13 +51,13 @@ As imagens anteriores permanecem em `assets/screenshots/reais-anonimizados` como
 
 ## Evidências e limites
 
-Na validação local de **14/09/2026**, foram aprovados **139 testes Python, 101 testes TypeScript e 29 verificações HTTP integradas**. A documentação registra ambiente, procedimentos e limites. O CI do GitHub verifica arquivos versionados, sintaxe Python, build TypeScript e dependências JavaScript; a suíte integrada com PostgreSQL e Qt foi executada localmente.
+Na validação local de **14/09/2026**, foram aprovados **139 testes Python, 101 testes TypeScript e 29 verificações HTTP integradas**. Na revisão de **19/10/2026** do Balança Audit, em instalação limpa, passaram **143 testes Python e 174 testes TypeScript** ([estudo 04](cases/04-balanca-audit-inteligencia-operacional.md)). A documentação registra ambiente, procedimentos e limites. O CI do GitHub verifica arquivos versionados, sintaxe Python, build TypeScript e dependências JavaScript; a suíte integrada com PostgreSQL e Qt foi executada localmente.
 
 Não apresento percentuais de economia ou produtividade sem medição. Os volumes da demonstração são fixtures para explorar regras de negócio, não dados ou resultados atribuídos a clientes.
 
 ## Minha atuação e aprendizados
 
-Os projetos nasceram da identificação de dificuldades em rotinas administrativas e operacionais. Minha atuação envolve organizar os fluxos, desenvolver interfaces e automações, estruturar os dados, produzir relatórios e evoluir as ferramentas conforme o uso.
+Os projetos nasceram da identificação de dificuldades em rotinas administrativas e operacionais. Minha atuação envolve identificar as necessidades, organizar os fluxos, definir as regras de negócio, estruturar os dados e validar o resultado. Parte da implementação foi feita com assistentes de IA a partir dessas especificações; a conferência na aplicação e as correções de regras ficaram comigo.
 
 Os estudos destacam decisões e compromissos de engenharia: preservar aplicações existentes, separar contratos de integração, manter testes reproduzíveis e oferecer uma experiência demonstrativa sem informações internas.
 

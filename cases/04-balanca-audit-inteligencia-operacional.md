@@ -1,4 +1,4 @@
-# 04 · Balança Audit: análise gerencial complementar ao sistema corporativo
+# 04 · Controle de Safra: análise gerencial complementar ao sistema corporativo
 
 [Voltar ao portfólio](../README.md) · [Código da demonstração](https://github.com/gabrisantoss/operacoes-agricolas)
 
@@ -6,7 +6,7 @@
 
 O registro oficial de ordens de serviço, pesagens e entregas fica em um sistema corporativo, que é a fonte de verdade. O que faltava era uma etapa de organização e conferência entre a exportação desses dados e a análise gerencial. Essa etapa era feita em planilhas e documentos avulsos.
 
-O Balança Audit cobre essa etapa. Ele não substitui o sistema corporativo e não envia nada de volta a ele.
+O Controle de Safra cobre essa etapa. Ele não substitui o sistema corporativo e não envia nada de volta a ele.
 
 ```text
 Sistema corporativo oficial
@@ -63,7 +63,7 @@ Há um relatório geral e outro detalhado por fazenda, talhão e período. A pr�
 
 ## Minha participação e o uso de IA
 
-- **Autoria:** o Balança Audit é um software de minha autoria.
+- **Autoria:** o Controle de Safra é um software de minha autoria.
 - **Concepção e necessidades:** identifiquei o problema, defini o fluxo a partir do sistema corporativo e estabeleci as regras de negócio, entre elas o que conta como área comprovada, quais divergências bloqueiam ou pedem revisão e o que nunca deve ser descartado.
 - **Implementação auxiliada por IA:** grande parte do código, dos testes e da documentação foi escrita com assistentes de IA, a partir das especificações e correções que eu fornecia em etapas.
 - **Validação:** conferi cada etapa na demonstração, revisei os PDFs página a página, comparei os totais entre as telas e apontei inconsistências que viraram correções. Um exemplo: no cenário fictício, uma OS encerrada antes das últimas pesagens, o que exigiu corrigir o seed.

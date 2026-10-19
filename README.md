@@ -25,8 +25,7 @@ Cinco perspectivas sobre o mesmo ecossistema, com estudos específicos de seus m
 | [01 · Plataforma integrada](cases/01-plataforma-integrada.md) | Unificar o acesso sem reescrever todas as aplicações. | Portal, sessão, proxy, contratos e controlador local. |
 | [02 · Qualidade dos dados](cases/02-qualidade-dados.md) | Conferir pesagens, vínculos e divergências antes da análise. | Importação, regras, repositórios, testes e fechamento de safra. |
 | [03 · Rotinas administrativas](cases/03-rotinas-administrativas.md) | Organizar transporte, pessoas, documentos e relatórios. | Cadastros integrados, histórico, filtros, indicadores e exportações. |
-| [04 · Balança Audit](cases/04-balanca-audit-inteligencia-operacional.md) | Conferir e analisar dados exportados do sistema corporativo, sem substituí-lo. | Importação de OS via Excel, PDFs com alerta de sobreposição, TCH com área comprovada e central de relatórios. |
-
+| [04 · Controle de Safra](cases/04-balanca-audit-inteligencia-operacional.md) | Conferir e analisar dados exportados do sistema corporativo, sem substituí-lo. | Importação de OS via Excel, PDFs com alerta de sobreposição, TCH com área comprovada e central de relatórios. |
 | [05 · Transporte de Olhadura](cases/05-transporte-olhadura.md) | Consultar viagens de mudas a partir de notas físicas, sem confundir origem, destino e datas. | Histórico paginado, filtros combinados, seis PDFs e validação PostgreSQL. |
 
 ## Telas demonstrativas
@@ -55,7 +54,9 @@ As imagens anteriores permanecem em `assets/screenshots/reais-anonimizados` como
 
 ## Evidências e limites
 
-Na validação local de **14/09/2026**, foram aprovados **139 testes Python, 101 testes TypeScript e 29 verificações HTTP integradas**. Na revisão de **19/10/2026** do Balança Audit, em instalação limpa, passaram **143 testes Python e 174 testes TypeScript** ([estudo 04](cases/04-balanca-audit-inteligencia-operacional.md)). A documentação registra ambiente, procedimentos e limites. O CI do GitHub verifica arquivos versionados, sintaxe Python, build TypeScript e dependências JavaScript; a suíte integrada com PostgreSQL e Qt foi executada localmente.
+Na validação local de **14/09/2026**, foram aprovados **139 testes Python, 101 testes TypeScript e 29 verificações HTTP integradas**. Na revisão de **19/10/2026** do Controle de Safra, em instalação limpa, passaram **143 testes Python e 174 testes TypeScript** ([estudo 04](cases/04-balanca-audit-inteligencia-operacional.md)). A documentação registra ambiente, procedimentos e limites. O CI do GitHub verifica arquivos versionados, sintaxe Python, build TypeScript e dependências JavaScript; a suíte integrada com PostgreSQL e Qt foi executada localmente.
+
+Na revisão final de **19/10/2026**, após as melhorias do Transporte de Olhadura, foram aprovados **173 testes Python, 174 TypeScript e 6 JavaScript** na suíte integrada, incluindo verificações com PostgreSQL real. Foram conferidos o portal autenticado, filtros, PDFs, planilhas e capturas sintéticas ([estudo 05](cases/05-transporte-olhadura.md), [validação técnica](https://github.com/gabrisantoss/operacoes-agricolas/blob/main/docs/VALIDACAO.md)). Esses totais se referem à demonstração integrada, não somente ao transporte.
 
 Não apresento percentuais de economia ou produtividade sem medição. Os volumes da demonstração são fixtures para explorar regras de negócio, não dados ou resultados atribuídos a clientes.
 
@@ -72,5 +73,3 @@ As instalações operacionais e suas bases não são publicadas. A demonstraçã
 ## Contato
 
 [GitHub](https://github.com/gabrisantoss) · [LinkedIn](https://www.linkedin.com/in/gabriel-santos-49874a356) · [E-mail](mailto:santozgabriiel@gmail.com)
-
-A revisão final do Transporte de Olhadura em **19/10/2026** repetiu a suíte integrada: **173 testes Python, 174 testes TypeScript e 6 testes JavaScript de usabilidade**, incluindo PostgreSQL real. Foram conferidos portal autenticado, PDFs, Excel e capturas sintéticas ([estudo de caso](cases/05-transporte-olhadura.md), [registro técnico](https://github.com/gabrisantoss/operacoes-agricolas/blob/main/docs/VALIDACAO.md)). Esses totais abrangem a demonstração integrada.

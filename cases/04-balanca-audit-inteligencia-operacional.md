@@ -10,7 +10,7 @@ O Balança Audit cobre essa etapa. Ele não substitui o sistema corporativo e n�
 
 ```text
 Sistema corporativo oficial
-→ Exportação em Excel (ordens de serviço) e relatórios PDF padronizados
+→ Planilha operacional exportada (ordens de serviço) e relatório padronizado de pesagem em PDF
 → Importação com prévia, conferências e alertas
 → Organização, indicadores e relatórios gerenciais
 ```
@@ -21,7 +21,7 @@ Tudo o que aparece aqui vem da demonstração pública, com fazendas, talhões, 
 
 ### Importação gerencial de OS via Excel
 
-A planilha exportada passa por uma prévia antes de qualquer gravação, que mostra:
+A planilha operacional exportada passa por uma prévia antes de qualquer gravação, que mostra:
 
 - as OS novas e as alterações propostas;
 - as OS encerradas, que permanecem preservadas;
@@ -29,9 +29,9 @@ A planilha exportada passa por uma prévia antes de qualquer gravação, que mos
 
 A mesma planilha não pode ser importada duas vezes, porque o controle é feito pelo conteúdo do arquivo. Uma nova exportação com mudanças legítimas é aceita. Cada importação fica no histórico e gera um relatório CSV.
 
-### Importação manual de PDFs padronizados
+### Importação manual do relatório padronizado de pesagem
 
-Os relatórios de resumo de cana entregue chegam como PDF e são inseridos manualmente. Antes de gravar, a prévia compara o arquivo com os PDFs já importados:
+O relatório padronizado de pesagem chega em PDF e é inserido manualmente. Antes de gravar, a prévia compara o arquivo com os PDFs já importados:
 
 | Situação | Comportamento |
 | --- | --- |
@@ -63,6 +63,7 @@ Há um relatório geral e outro detalhado por fazenda, talhão e período. A pr�
 
 ## Minha participação e o uso de IA
 
+- **Autoria:** o Balança Audit é um software de minha autoria.
 - **Concepção e necessidades:** identifiquei o problema, defini o fluxo a partir do sistema corporativo e estabeleci as regras de negócio, entre elas o que conta como área comprovada, quais divergências bloqueiam ou pedem revisão e o que nunca deve ser descartado.
 - **Implementação auxiliada por IA:** grande parte do código, dos testes e da documentação foi escrita com assistentes de IA, a partir das especificações e correções que eu fornecia em etapas.
 - **Validação:** conferi cada etapa na demonstração, revisei os PDFs página a página, comparei os totais entre as telas e apontei inconsistências que viraram correções. Um exemplo: no cenário fictício, uma OS encerrada antes das últimas pesagens, o que exigiu corrigir o seed.

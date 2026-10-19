@@ -74,8 +74,6 @@ Validação local de 19/10/2026, em instalação limpa: **143 testes Python e 17
 
 Esses números indicam que as suítes passaram. Não significam cobertura total nem ganhos de produtividade, que não foram medidos.
 
-> Os itens desta seção e das telas de relatórios, importação de OS e sobreposição de PDFs dependem da publicação da branch de revisão do repositório de código. Até lá, os links apontam para a versão pública anterior.
-
 ## Limites
 
 - Não há integração direta com o sistema corporativo. A troca de dados é feita por arquivos exportados e importados manualmente.
